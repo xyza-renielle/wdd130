@@ -2,7 +2,7 @@
     --primary-color: rgb(50, 91, 50);
     --secondary-color: beige;
     --accent1-color: rgb(70, 70, 92);
-    --accent2-color: rgb(197, 197, 178);
+    --accent2-color: rgb(197, 197, 178, 0.7);
     --heading-font: Verdana, Geneva, Tahoma, sans-serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -29,6 +29,9 @@ h1,
 h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    background-color: var(--secondary-color);
+    padding: 20px;
+    text-align: center;
 }
 
 nav,
@@ -66,16 +69,15 @@ h1 {
 
 .hero article {
     position: absolute;
-    margin: 5px 0 5px;
-    padding: 10px;
-    background-color: var(--secondary-color);
+    top: 25rem;
+    background-color: var(--accent2-color);
     color: #000;
 }
 
 .hero article img {
     float: right;
-    margin-top: 7px;
-    width: 125px;
+    margin: 7px;
+    width: 150px;
     border: 1px solid black;
     box-shadow: 0 0 30px gray;
 }
