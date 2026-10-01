@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #e0e6db;
+    display: grid;
+}
+
+h1 {
+    margin: 1rem;
+    text-align: center;
+}
+
+input,
+textarea,
+label,
+select {
+    display: block;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+button {
+    background-color: rgb(96, 165, 118);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    justify-self: center;
+    width: 25%;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
