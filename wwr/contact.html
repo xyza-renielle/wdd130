@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Xyza Renielle Dariagan's BYU Idaho WDD 130 Contact Us Page">
+    <meta name="author" content="Xyza Renielle Dariagan">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <title>Contact Us | Down The River Rafting Company</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/z-downriver.png" alt="Website Logo" width="125">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-info">
+            <h1>Down The River</h1>
+            <p>Casit-an River</p>
+            <p>Libacao, Aklan</p>
+            <p>+63 912 345 6789</p>
+            <p>info@downtheriver.com</p>
+        </section>
+
+        <section class="contact-section">
+            <div class="map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10624.94601529372!2d122.30634845007835!3d11.457505332594732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sph!4v1791039735635!5m2!1sen!2sph"
+                  width="600" height="450" allowfullscreen="" loading="lazy"
+                  referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your email" required>
+                </div>
+                <fieldset class="purpose-group">
+                    <label>Message Purpose</label>
+                    <div class="radio-options">
+                        <label>
+                            <input type="radio" name="purpose" value="general" required>
+                            General Inquiry
+                        </label>
+                        <label>
+                            <input type="radio" name="purpose" value="reservation">
+                            Reservation Question
+                        </label>
+                        <label>
+                            <input type="radio" name="purpose" value="suggestion">
+                            Website Suggestion
+                        </label>
+                    </div>
+                </fieldset>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                </div>
+                <textarea id="message" name="message" placeholder="Type here" required></textarea>
+
+                <label class="subscribe">
+                    <input type="checkbox" name="subscribe">
+                    Please Subscribe me to the monthly newsletter
+                </label>
+                <button type="submit">Get in Touch!</button>
+            </form>
+        </section>
+
+        <section class="employees">
+            <h2>We Are Here to Serve You</h2>
+            <div class="employee-grid">
+                <figure>
+                    <img src="images/employee1.jpg" alt="Rafting company employee" width="150">
+                    <figcaption>
+                        <strong>Alex Johnson</strong><br>
+                        General Manager
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee2.jpg" alt="Rafting company employee" width="150">
+                    <figcaption>
+                        <strong>Sarah Williams</strong><br>
+                        Reservation Specialist
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee3.jpg" alt="Rafting company employee" width="150">
+                    <figcaption>
+                        <strong>Michael Brown</strong><br>
+                        River Guide
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 🛶 Down The River 🛶 Xyza Renielle Dariagan</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.svg" alt="Facebook Icon" width="50">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin.svg" alt="LinkedIn Icon" width="50">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt="Instagram Icon" width="50">
+            </a>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
