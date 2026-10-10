@@ -451,7 +451,7 @@ textarea {
 }
 
 .info-banner-box {
-    background: var(--accent1-color);
+    background: darkolivegreen;
     color: white;
     padding: 30px;
     border-radius: 6px;
