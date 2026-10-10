@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+      content="Explore available white water rafting trips, detailed itineraries, and booking options with Down The River Rafting Company.">
+    <meta name="author" content="Xyza Renielle Dariagan">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <title>Trips | Down The River Rafting Company</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/z-downriver.png" alt="Website Logo" width="125">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-info">
+            <h1>Down The River</h1>
+            <p>Choose Your Adventure Level</p>
+            <p>Casit-an River, Libacao, Aklan</p>
+            <p>Book online or reach out directly to secure your spot!</p>
+        </section>
+
+        <section class="contact-section">
+            <div class="table-container">
+                <h2>Available Excursions</h2>
+                <table class="trip-table">
+                    <thead>
+                        <tr>
+                            <th>Trip Name</th>
+                            <th>Difficulty</th>
+                            <th>Duration</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Los Dientes del Diablo</td>
+                            <td>Advanced (Class IV)</td>
+                            <td>Full Day (6 hrs)</td>
+                            <td>$120</td>
+                        </tr>
+                        <tr>
+                            <td>Big Mallard Express</td>
+                            <td>Intermediate (Class III)</td>
+                            <td>Half Day (4 hrs)</td>
+                            <td>$85</td>
+                        </tr>
+                        <tr>
+                            <td>Calm Waters Family Float</td>
+                            <td>Beginner (Class I-II)</td>
+                            <td>Half Day (3 hrs)</td>
+                            <td>$60</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <form class="contact-form">
+                <h2>Trip Reservation</h2>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your email" required>
+                </div>
+                <fieldset class="purpose-group">
+                    <label>Select Trip</label>
+                    <div class="radio-options">
+                        <label>
+                            <input type="radio" id="diablo" name="trip" value="diablo" required>
+                            Los Dientes del Diablo
+                        </label>
+                        <label>
+                            <input type="radio" id="mallard" name="trip" value="mallard">
+                            Big Mallard Express
+                        </label>
+                        <label>
+                            <input type="radio" id="calm" name="trip" value="calm">
+                            Calm Waters Family Float
+                        </label>
+                    </div>
+                </fieldset>
+                <div class="form-group">
+                    <label for="message">Special Requests</label>
+                </div>
+                <textarea id="message" name="message" placeholder="Group size or special needs..."
+                  required></textarea>
+
+                <a href="contact.html" class="contact-link-btn">Questions? Contact Us First</a>
+                <button type="submit">Book Trip Now!</button>
+            </form>
+        </section>
+
+        <section class="employees">
+            <h2>Featured Excursions</h2>
+            <div class="employee-grid">
+                <figure>
+                    <img src="images/rafting47_600.jpg" alt="Los Dientes del Diablo trip"
+                      width="150">
+                    <figcaption>
+                        <strong>Los Dientes del Diablo</strong><br>
+                        <em>Extreme / Advanced</em><br>
+                        Intense technical rapids and steep drops for ultimate thrill-seekers.
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting19_600.jpg" alt="Big Mallard Express trip" width="150">
+                    <figcaption>
+                        <strong>Big Mallard Express</strong><br>
+                        <em>Intermediate</em><br>
+                        High-energy excitement balanced with scenic swimming pools.
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting65_600.jpg" alt="Calm Waters Family Float trip"
+                      width="150">
+                    <figcaption>
+                        <strong>Calm Waters Float</strong><br>
+                        <em>Beginner / Family</em><br>
+                        Gentle ripples and scenic views perfect for families and first-timers.
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 🛶 Down The River 🛶 Xyza Renielle Dariagan</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.svg" alt="Facebook Icon" width="50">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin.svg" alt="LinkedIn Icon" width="50">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt="Instagram Icon" width="50">
+            </a>
+        </nav>
+    </footer>
+
+</body>
+
+</html>

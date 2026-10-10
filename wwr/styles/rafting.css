@@ -343,3 +343,210 @@ textarea {
     color: var(--accent1-color);
     line-height: 1.4;
 }
+
+.home-hero h1 {
+    font-family: var(--heading-font);
+    font-size: 2.5rem;
+    background: transparent;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    top: 8%;
+}
+
+.home-hero .hero-content-box {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.4);
+    padding: 15px 25px;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    width: auto;
+    max-width: 90%;
+}
+
+.home-hero .hero-content-box p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    margin-bottom: 10px;
+    color: white;
+}
+
+.home-hero .cta-button {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.home-hero .cta-button:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.home-features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.feature-item {
+    background-color: var(--secondary-color);
+    border: 1px solid #c0c0c0;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feature-item img:first-child {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 4px;
+    border: 1px solid #999;
+}
+
+.feature-icon {
+    margin: 15px auto 5px;
+    display: block;
+}
+
+.feature-item h3 {
+    margin-top: 5px;
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    background: transparent;
+    padding: 0;
+}
+
+.info-banner-section {
+    background-color: var(--accent2-color);
+    padding: 40px 20px;
+    margin: 40px auto;
+}
+
+.info-banner-grid {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    align-items: center;
+    max-width: 750px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.info-banner-grid img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.info-banner-box {
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+    padding: 30px;
+    border-radius: 6px;
+    margin-left: 20px;
+    z-index: 2;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.info-banner-box h2 {
+    background: transparent;
+    color: white;
+    padding: 0 0 10px 0;
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.info-banner-box p {
+    padding: 0;
+    margin: 0 0 20px 0;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #f0f0f0;
+}
+
+.info-banner-box .cta-button {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.info-banner-box .cta-button:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.table-container h2,
+.contact-form h2 {
+    margin: 0 0 15px 0;
+    padding: 0;
+    background: transparent;
+    color: var(--primary-color);
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.trip-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+}
+
+.trip-table th,
+.trip-table td {
+    border: 1px solid #999;
+    padding: 10px 8px;
+    text-align: center;
+}
+
+.trip-table th {
+    background-color: var(--primary-color);
+    color: white;
+    font-family: var(--heading-font);
+}
+
+.trip-table tr:nth-child(even) {
+    background-color: var(--secondary-color);
+}
+
+.contact-link-btn {
+    display: block;
+    text-align: center;
+    font-size: 0.85rem;
+    color: var(--primary-color);
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+
+.contact-link-btn:hover {
+    color: var(--accent1-color);
+}
+
+.contact-section .table-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.contact-section .trip-table {
+    width: 100%;
+    height: 85%;
+    border-collapse: collapse;
+    font-size: .95rem;
+}
