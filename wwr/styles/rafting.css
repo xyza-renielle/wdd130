@@ -491,6 +491,45 @@ textarea {
     color: white;
 }
 
+.newsletter-section {
+    background-color: var(--secondary-color);
+    padding: 35px 20px;
+    margin: 40px auto;
+    border-radius: 8px;
+    max-width: 600px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.newsletter-section h2 {
+    background: transparent;
+    color: var(--primary-color);
+    padding: 0 0 10px 0;
+}
+
+.newsletter-form {
+    max-width: 450px;
+    margin: 20px auto 0;
+    text-align: left;
+}
+
+.newsletter-btn {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.newsletter-btn:hover {
+    background-color: var(--accent1-color);
+}
+
 .table-container h2,
 .contact-form h2 {
     margin: 0 0 15px 0;
